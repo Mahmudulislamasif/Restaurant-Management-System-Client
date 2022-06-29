@@ -1,0 +1,45 @@
+[
+    {
+        "_id":1,
+        "image":"https://i.ibb.co/SwQDwT6/mutton-lamb-biriyani-with-basmati-rice-served-bowl-moody-background.jpg",
+        "name":"Mutton Biryani",
+        "price":"280",
+        "category":"lunch"
+    },
+    {
+        "_id":2,
+        "image":"https://i.ibb.co/GRTM3rq/american-shrimp-fried-rice-served-with-chili-fish-sauce-thai-food.jpg",
+        "name":"Fried Rice",
+        "price":"200",
+        "category":"lunch"
+    },
+    {
+        "_id":3,
+        "image":"https://i.ibb.co/DDv3sGF/indian-chicken-biryani-served-terracotta-bowl-with-yogurt-white-background-selective-focus.jpg",
+        "name":"Chicken Biryani",
+        "price":"180",
+        "category":"lunch"
+    },
+    {
+        "_id":4,
+        "image":"https://i.ibb.co/k58rmQV/aloo-paratha-gobi-paratha-also-known-as-potato-cauliflower-stuffed-flatbread-dish-originating-from-i.jpg",
+        "name":"Alo Paratha",
+        "price":"100",
+        "category":"breakfast"
+    },
+    {
+        "_id":"5",
+        "image":"https://i.ibb.co/Y0tSkWL/caramel-custard-pudding.jpg",
+        "name":"Cramel Custard pudding",
+        "price":"100",
+        "category":"snack"
+    },
+    {
+        "_id":"6",
+        "image":"https://i.ibb.co/54kNgyk/grilled-chicken-legs-flaming-grill-with-grilled-vegetables-with-tomatoes-potatoes-pepper-seeds-salt.jpg",
+        "name":"Grill Chicken",
+        "price":"120",
+        "category":"snack"
+    }
+
+]
