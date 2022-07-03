@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react';
+import Loading from '../Shared/Loading';
 import FoodItem from './FoodItem';
 
 const FoodItems = () => {
     const [foodItems,setFoodItems]=useState([])
     const [filter,setFilter]=useState(foodItems)
+    const [loading,setLoading]=useState(false)
     useEffect(()=>{
-        fetch('FoodItems.json')
+        setLoading(true)
+        fetch('http://localhost:5000/foods')
         .then(res=>res.json())
         .then(data=>setFoodItems(data))
     },[])

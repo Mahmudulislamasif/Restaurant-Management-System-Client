@@ -1,7 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const FoodItem = ({foodItem}) => {
-    const {image,name,price}=foodItem;
+    const {_id,image,name,price}=foodItem;
+    const navigate=useNavigate();
+    const navigateToDetails=(id)=>{
+        navigate(`/food/${id}`)
+    }
     return (
         <div className="mx-auto my-2">
             <div class="card w-96 glass">
@@ -10,7 +15,7 @@ const FoodItem = ({foodItem}) => {
                 <h2 class="card-title">{name}</h2>
                 <p className="text-left">Price: {price}tk</p>
                 <div class="card-actions justify-end">
-                <button class="btn btn-primary">Show Details</button>
+                <button class="btn btn-primary" onClick={()=>navigateToDetails(_id)}>Show Details</button>
                 </div>
             </div>
             </div>
